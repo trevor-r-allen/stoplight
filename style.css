@@ -1,0 +1,51 @@
+:root{
+  --dark: rgb(45, 45, 45)
+}
+body{
+  background-color: gray;
+  margin: 0%;
+}
+div{
+  background-color: var(--dark);
+}
+
+
+
+.pole{
+  background-color: var(--dark);
+  height: 100px;
+  width: 75px;
+  margin: auto;
+}
+.box{
+  background-color: var(--dark);
+  height: 340px;
+  width: 120px;
+  margin: auto;
+  padding: 10px;
+}
+.light{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin: 10px auto;
+
+}
+.go{
+  background-color: green;
+}
+.slow{
+  background-color: yellow;
+}
+.stop{
+  background-color: red;
+}
+.go:hover {
+  filter: drop-shadow(0px 0px 50px rgb(45, 145, 45));
+}
+.slow:hover {
+  filter: drop-shadow(0px 0px 50px rgb(255, 255, 100));
+}
+.stop:hover {
+  filter: drop-shadow(0px 0px 50px rgb(255, 60, 60));
+}
